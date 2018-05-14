@@ -22,9 +22,6 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-apt-get install -y nginx
-echo "Hello World from host" $HOSTNAME "!" | sudo tee -a /var/www/html/index.html
-
 # Copy NGINX site file
 cp nginx /etc/nginx/sites-available/default
 chown www-data:www-data /etc/nginx/sites-available/default
@@ -32,7 +29,7 @@ service nginx restart
 
 # Copy Node.js file
 mkdir /var/www/myapp
-cp index.html /var/www/myapp/
+cp index.html /var/www/myapp/index.html
 cp page.js /var/www/myapp/index.js
 cd /var/www/myapp
 
