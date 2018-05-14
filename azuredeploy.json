@@ -270,10 +270,11 @@
                     "typeHandlerVersion": "2.0",
                     "autoUpgradeMinorVersion": true,
                     "settings": {
-						"fileUris": ["https://raw.githubusercontent.com/Azure-Samples/compute-automation-configurations/master/nodejs-app/hello-world-v1.js",
-						"https://raw.githubusercontent.com/Azure-Samples/compute-automation-configurations/master/nodejs-app/nginx",
-						"https://raw.githubusercontent.com/Azure-Samples/compute-automation-configurations/master/nodejs-app/deploy-v1.sh"],
-						"commandToExecute": "./deploy-v1.sh"
+			"fileUris": ["https://github.com/carlos2997/conu-pagina/blob/master/page.js",
+			"https://github.com/carlos2997/conu-pagina/blob/master/index.html",
+			"https://raw.githubusercontent.com/Azure-Samples/compute-automation-configurations/master/nodejs-app/nginx",
+			"https://github.com/carlos2997/conu-pagina/blob/master/deploy-v1.sh"],
+			"commandToExecute": "./deploy-v1.sh"
                     }
                   }
                 }
